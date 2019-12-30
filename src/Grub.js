@@ -4,9 +4,7 @@ class Grub {
     this.color = "pink";
     this.food = "jelly";
   }
-  eat() {
-    return 'Mmmmmmmmm jelly'
-  }
+  eat = () => 'Mmmmmmmmm jelly'
 
 };
 

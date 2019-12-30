@@ -9,10 +9,8 @@ class RetiredForagerBee {
     this.eat = foragerBee.eat;
     this.treasureChest = foragerBee.treasureChest;
   }
-  forage() {
-    return 'I am too old, let me play cards instead'
-  }
-  gamble(treasure) {
-    return this.treasureChest.push(treasure);
-  }
+  forage = () => 'I am too old, let me play cards instead'
+
+  gamble = (treasure) => this.treasureChest.push(treasure);
+
 };

@@ -10,10 +10,8 @@ class HoneyMakerBee {
 
   }
 
-  makeHoney() {
-    return this.honeyPot++;
-  }
-  giveHoney() {
-    return this.honeyPot--;
-  }
+  makeHoney = () => this.honeyPot++;
+
+  giveHoney = () => this.honeyPot--;
+
 };
